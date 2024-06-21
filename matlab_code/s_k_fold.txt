@@ -1,0 +1,204 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Operation terminated by user during repmat
+
+
+In rbf_kernel (line 20)
+kval = exp(-(1/(2*rbf_sigma^2))*(repmat(sqrt(sum(u.^2,2).^2),1,size(v,1))...
+
+In svmtrain (line 511)
+        kx = feval(kfun,training,training,kfunargs{:});
+
+In svm (line 28)
+    svmModel = svmtrain(tm(trainIdx,:), cv(trainIdx), ...
+} 
+---------------
+
+trainTime =
+
+  348.1351
+
+
+testTime =
+
+    4.9924
+
+
+ans =
+
+    0.8616
+
+---------------
+---------------
+
+trainTime =
+
+  347.3608
+
+
+testTime =
+
+    3.2759
+
+
+ans =
+
+    0.8585
+
+---------------
+---------------
+
+trainTime =
+
+  353.1890
+
+
+testTime =
+
+    3.5268
+
+
+ans =
+
+    0.8576
+
+---------------
+---------------
+
+trainTime =
+
+  351.1115
+
+
+testTime =
+
+    2.9573
+
+
+ans =
+
+    0.8580
+
+---------------
+---------------
+
+trainTime =
+
+  345.3386
+
+
+testTime =
+
+    3.2684
+
+
+ans =
+
+    0.8553
+
+---------------
+---------------
+
+trainTime =
+
+  348.3213
+
+
+testTime =
+
+    2.3992
+
+
+ans =
+
+    0.8570
+
+---------------
+---------------
+
+trainTime =
+
+  348.0604
+
+
+testTime =
+
+    3.4683
+
+
+ans =
+
+    0.8569
+
+---------------
+---------------
+
+trainTime =
+
+  349.5947
+
+
+testTime =
+
+    2.1820
+
+
+ans =
+
+    0.8566
+
+---------------
+---------------
+
+trainTime =
+
+  351.7232
+
+
+testTime =
+
+    3.4773
+
+
+ans =
+
+    0.8571
+
+---------------
+---------------
+
+trainTime =
+
+  345.3282
+
+
+testTime =
+
+    2.3772
+
+
+ans =
+
+    0.8575
+
+---------------
+
+ans =
+
+    0.8575
+
+
+ans =
+
+         879        4550
+         474       29357
+           0           0
+
